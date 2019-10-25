@@ -1,0 +1,25 @@
+server:
+  port: 8000
+  read-timeout: 60
+  write-timeout: 60
+
+database:
+  type: mysql
+  user: root
+  password: Zbj123
+  host: 127.0.0.1:3306
+  name: gin-inject
+  table-prefix: go_
+
+redis:
+  addr: 127.0.0.1:6379
+  pass: 
+  db: 1
+  timeout: 1000
+  expired-time: 3600
+
+rabbitmq:
+  addr: 127.0.0.1
+  port: 5672
+  user: guest
+  pass: guest
