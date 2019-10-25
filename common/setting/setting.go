@@ -1,16 +1,11 @@
-/**
- * @Author: Tomonori
- * @Date: 2019/6/18 14:49
- * @File: setting
- * @Desc:
- */
 package setting
 
 import (
-	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"log"
 	"time"
+
+	"gopkg.in/yaml.v2"
 )
 
 var (

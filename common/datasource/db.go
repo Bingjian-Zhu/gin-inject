@@ -1,9 +1,3 @@
-/**
- * @Author: Tomonori
- * @Date: 2019/6/18 14:56
- * @File: db
- * @Desc:
- */
 package datasource
 
 import (

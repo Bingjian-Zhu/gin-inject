@@ -1,9 +1,3 @@
-/**
- * @Author: Tomonori
- * @Date: 2019/6/18 14:44
- * @File: tools
- * @Desc:
- */
 package tools
 
 import (
