@@ -1,10 +1,10 @@
 package router
 
 import (
-	"gin-inject/common/cache"
-	"gin-inject/common/datasource"
-
+	//"gin-inject/common/cache"
+	//"gin-inject/common/datasource"
 	//"gin-inject/common/rabbitmq"
+	"gin-inject/common/datasource"
 	"gin-inject/controller"
 	"gin-inject/repository"
 	"gin-inject/service"
@@ -20,7 +20,7 @@ func Configure(app *gin.Engine) {
 
 	//inject declare
 	db := datasource.Db{}
-	redis := cache.Redis{}
+	//redis := cache.Redis{}
 	//rabbit := rabbitmq.Mq{}
 
 	//Injection
@@ -28,7 +28,7 @@ func Configure(app *gin.Engine) {
 	err := injector.Provide(
 		&inject.Object{Value: &index},
 		&inject.Object{Value: &db},
-		&inject.Object{Value: &redis},
+		//&inject.Object{Value: &redis},
 		//&inject.Object{Value: &rabbit},
 		&inject.Object{Value: &repository.StartRepo{}},
 		&inject.Object{Value: &service.StartService{}},
@@ -45,12 +45,12 @@ func Configure(app *gin.Engine) {
 	if err != nil {
 		log.Fatal("db fatal:", err)
 	}
-	//redis server connect
-	err = redis.Connect()
-	if err != nil {
-		log.Fatal("redis fatal:", err)
-	}
-	// rabbitmq server connect
+	// //redis server connect
+	// err = redis.Connect()
+	// if err != nil {
+	// 	log.Fatal("redis fatal:", err)
+	// }
+	// // rabbitmq server connect
 	// err = rabbit.Connect()
 	// if err != nil {
 	// 	log.Fatal("RabbitMQ fatal:", err)
@@ -58,7 +58,6 @@ func Configure(app *gin.Engine) {
 
 	v1 := app.Group("/")
 	{
-		v1.GET("/get", index.GetName)
-		v1.GET("/GetID", index.GetID)
+		v1.GET("/get/:msg", index.GetName)
 	}
 }
