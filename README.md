@@ -23,3 +23,5 @@ gin，以依赖注入方式把项目解耦。[相关教程]()
 1. 修改config中数据库配置
 2. 执行`go run main.go`
 
+
+> 此demo仅为介绍gin中如何使用依赖注入，具体实战项目请参考[gin-vue-admin](https://github.com/Bingjian-Zhu/gin-vue-admin)
