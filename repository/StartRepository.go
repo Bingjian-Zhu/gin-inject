@@ -2,7 +2,7 @@ package repository
 
 import (
 	"fmt"
-	"gin-inject/common/datasource"
+	"github.com/bingjian-zhu/gin-inject/common/datasource"
 )
 
 //StartRepo 注入数据库

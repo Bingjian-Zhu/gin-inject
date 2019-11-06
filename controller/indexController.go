@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"gin-inject/service"
+	"github.com/bingjian-zhu/gin-inject/service"
 
 	"github.com/gin-gonic/gin"
 )

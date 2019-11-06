@@ -1,13 +1,13 @@
 package router
 
 import (
-	//"gin-inject/common/cache"
-	//"gin-inject/common/datasource"
-	//"gin-inject/common/rabbitmq"
-	"gin-inject/common/datasource"
-	"gin-inject/controller"
-	"gin-inject/repository"
-	"gin-inject/service"
+	//"github.com/bingjian-zhu/gin-inject/common/cache"
+	//"github.com/bingjian-zhu/gin-inject/common/datasource"
+	//"github.com/bingjian-zhu/gin-inject/common/rabbitmq"
+	"github.com/bingjian-zhu/gin-inject/common/datasource"
+	"github.com/bingjian-zhu/gin-inject/controller"
+	"github.com/bingjian-zhu/gin-inject/repository"
+	"github.com/bingjian-zhu/gin-inject/service"
 	"log"
 
 	"github.com/facebookgo/inject"

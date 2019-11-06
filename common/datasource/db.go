@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	"gin-inject/common/setting"
+	"github.com/bingjian-zhu/gin-inject/common/setting"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"

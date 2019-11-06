@@ -1,8 +1,8 @@
 package rabbitmq
 
 import (
-	"gin-inject/common/setting"
-	"gin-inject/repository"
+	"github.com/bingjian-zhu/gin-inject/common/setting"
+	"github.com/bingjian-zhu/gin-inject/repository"
 	"fmt"
 	"github.com/streadway/amqp"
 	"log"

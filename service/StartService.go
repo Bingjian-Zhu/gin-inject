@@ -1,6 +1,6 @@
 package service
 
-import "gin-inject/repository"
+import "github.com/bingjian-zhu/gin-inject/repository"
 
 //StartService 注入IStartRepo
 type StartService struct {

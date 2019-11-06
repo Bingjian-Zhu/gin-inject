@@ -1,7 +1,7 @@
 package rabbitmq
 
 import (
-	"gin-inject/repository"
+	"github.com/bingjian-zhu/gin-inject/repository"
 	"reflect"
 )
 

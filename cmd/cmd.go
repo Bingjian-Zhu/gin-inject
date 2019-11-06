@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/gin-gonic/gin"
-	"gin-inject/router"
+	"github.com/bingjian-zhu/gin-inject/router"
 )
 func App() *gin.Engine {
 	r := gin.New()

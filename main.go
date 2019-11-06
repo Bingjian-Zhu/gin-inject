@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gin-inject/cmd"
-	"gin-inject/common/setting"
+	"github.com/bingjian-zhu/gin-inject/cmd"
+	"github.com/bingjian-zhu/gin-inject/common/setting"
 	"fmt"
 )
 

@@ -1,7 +1,7 @@
 package cache
 
 import (
-	"gin-inject/common/setting"
+	"github.com/bingjian-zhu/gin-inject/common/setting"
 	"github.com/go-redis/redis"
 	"log"
 	"time"
