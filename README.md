@@ -1,5 +1,5 @@
 # gin-inject
-gin，以依赖注入方式把项目解耦。[相关教程]()
+gin，以依赖注入方式把项目解耦。[相关教程](https://bingjian-zhu.github.io/2019/11/06/Gin%E5%AE%9E%E7%8E%B0%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/)
 
 ### 项目结构
 <pre><code>
